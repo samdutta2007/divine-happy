@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:borderbox;
+}
+html
+body{
+    height: 100%;
+    margin: 100%;
+
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    background-image: rgb(231, 225, 225);
+}
+  #page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }  
+  

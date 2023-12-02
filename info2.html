@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .parallax-section {
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #555; /* Gray text color */
+      text-align: center;
+    }
+
+    /* Customize each section with different background images */
+    .section1 {
+      background-image: url('babu.jpg');
+    }
+
+    .section2 {
+      background-image: url('baacha2.jpg');
+    }
+
+    .section3 {
+      background-image: url('bata.jpg');
+    }
+
+    /* Image and text styles */
+    .content {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .content img {
+      width: 100%;
+      border-radius: 8px; /* Add rounded corners to the images */
+    }
+
+    /* Customize other styles as needed */
+  </style>
+</head>
+<body>
+
+  <div class="parallax-section section1">
+    <div class="content">
+      <img src=".jpg" alt="Image 1">
+      <h1>Section 1</h1>
+      <p>Your content for section 1 goes here.</p>
+    </div>
+  </div>
+
+  <div class="parallax-section section2">
+    <div class="content">
+      <img src="." alt="Image 2">
+      <h2>Section 2</h2>
+      <p>Your content for section 2 goes here.</p>
+    </div>
+  </div>
+
+  <div class="parallax-section section3">
+    <div class="content">
+      <img src=".jpg" alt="Image 3">
+      <h2>Section 3</h2>
+      <p>Your content for section 3 goes here.</p>
+    </div>
+  </div>
+
+  <!-- Add more sections as needed -->
+
+</body>
+</html>
